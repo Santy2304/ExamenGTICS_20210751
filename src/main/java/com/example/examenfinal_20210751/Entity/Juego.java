@@ -8,7 +8,6 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@JsonIgnoreProperties({"id"})
 @Table(name = "juegos")
 public class Juego {
 
